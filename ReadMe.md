@@ -10,7 +10,7 @@ A simple web page generator for podcast playlist display (with player).
 Put this script under root folder alone with the folder contains your episode records, the file structure should be like below.
   
 ### File Structure
-'''
+```
 Root Folder
 └─ CasListGen.py <- Place here !
 └─ Source (Folder)
@@ -21,7 +21,7 @@ Root Folder
 	│ └─ episode.m4a
 	│ └─ info.txt
 	...
-'''
+```
   
 ### Naming Rule
 - Your folder name will be the title for each episode.
