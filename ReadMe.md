@@ -59,7 +59,7 @@ mode = Web server mode [True / False]
   
 ## Release Note
   
-### 2022-02-07
+### 2022-02-08
 - Add web server.
 - Fix some bugs.
 
