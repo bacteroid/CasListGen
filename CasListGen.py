@@ -525,20 +525,28 @@ def stgen(baset=baset):
     ## Check Logo
     logpat = os.path.join("resource",baset["logo"])
     if not os.path.isfile(baset["logo"]):
-        genicon(baset["logo"],baset["icon"])
+        if not os.path.isfile(logpat):
+            genicon(baset["logo"],baset["icon"])
+            shutil.move(baset["logo"],logpat)
+            print("Generated Logo File.")
+        else:
+            print("Logo Existed !")
+    else:
         shutil.move(baset["logo"],logpat)
-        print("Generated Logo file.")
-    elif not os.path.isfile(logpat):
-        shutil.move(baset["logo"],logpat)
+        print("Logo File Moved !")
         
     ## Check Cover
     covpat = os.path.join("resource",baset["cover"])
     if not os.path.isfile(baset["cover"]):
-        genicon(baset["cover"],baset["icon"])
+        if not os.path.isfile(covpat):
+            genicon(baset["cover"],baset["icon"])
+            shutil.move(baset["cover"],covpat)
+            print("Generated Cover File.")
+        else:
+            print("Cover Existed !")
+    else:
         shutil.move(baset["cover"],covpat)
-        print("Generated Cover file.")
-    elif not os.path.isfile(covpat):
-        shutil.move(baset["cover"],covpat)
+        print("Cover File Moved !")
     
     ## Generate episode menu
     genlst = ''''''
