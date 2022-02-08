@@ -28,6 +28,21 @@ Root Folder
 - Media file should be named as "episode" for the program to recgonize as the main sound source.
 - Text file "info.txt" is not necessary, but will become the content note for your episode if existed.
   
+### Configuration File
+```
+[CAST]
+title = Your Cast Title
+cover = Cast Cover
+logo = Cast Logo
+source = Cast Source Path
+ext = Extension of Media File
+
+[SERVER]
+port = Port for your web server
+cycle = Time peroid for checking episode list
+mode = Web server mode [True / False]
+```
+  
 ### Note
 - Index content will be overwrite  
   
@@ -37,21 +52,23 @@ Root Folder
 - [x] Read episode from given folder.
 - [x] Generate playlist and player page for the show.
 - [ ] Generate RSS Feed for the show. (Pending)
-- [ ] Run in background as simple web server.
-- [ ] Auto update playing list.
+- [x] Run in background as simple web server.
+- [x] Auto update playing list.
   
 ---
   
 ## Release Note
   
 ### 2022-02-07
-- First Release
+- Add web server.
+- Fix some bugs.
 
 <details>
 <summary>Show More</summary>
 <p>
 
-None
+#### 2022-02-07
+- First Release
 
 </p>
 </details> 
