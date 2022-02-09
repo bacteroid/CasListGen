@@ -45,6 +45,7 @@ mode = Web server mode [True / False]
   
 ### Note
 - Index content will be overwrite  
+- Blog Post (Mandarin) : [Click Here](https://mercuryagar.wordpress.com/2022/01/28/%e7%ad%86%e8%a8%98-%e9%83%bd%e5%81%9a%e4%ba%86%e9%82%84%e5%9c%a8%e6%87%b6-%e8%a9%a6%e5%af%ab-podcast-%e5%b1%95%e7%a4%ba%e7%b6%b2%e9%a0%81%e7%94%9f%e6%88%90%e5%99%a8/)
   
 ---
   
