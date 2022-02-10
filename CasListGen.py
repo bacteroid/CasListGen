@@ -481,7 +481,7 @@ def gencrd(title,idn,baset):
     url = '''./player.html?ep='''+urltit
     idcnt = idn+"_cnt"
     res = '''
-    <div id="'''+idn+'''" style="display:None;max-width:250px;">
+    <div id="'''+idn+'''" style="display:None;max-width:300px;">
     <div class="neumorphismcrd boxfdin" style="height:calc(90px + 1vmin);">
     <div class="incrd">
     <table class="intable" style="vertical-align:middle;width:95%;">
